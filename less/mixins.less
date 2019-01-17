@@ -11,7 +11,6 @@
     cursor: @cursor;
     font-size: @size;
 }
-
 .keyframe-animation(@name; @arguments) {
 	@keyframes @name {
 		@arguments();
@@ -22,4 +21,9 @@
 }
 .animation-name(@name) {
 	animation-name: @name;
+}
+.flex-me(@just; @dir: row) {
+    display: flex;
+    flex-direction: @dir;
+    justify-content: @just;
 }
