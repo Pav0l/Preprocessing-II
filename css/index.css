@@ -182,7 +182,7 @@ img {
   margin: 0 auto;
 }
 .navbar-section div nav {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -341,5 +341,10 @@ header img {
   .home .content-pick .destination {
     margin: 0 auto 6%;
     width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    margin: 0 2%;
   }
 }
