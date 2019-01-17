@@ -276,7 +276,7 @@ header img {
   text-align: center;
   cursor: pointer;
   font-size: 2rem;
-  width: 85%;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .home {
@@ -300,5 +300,13 @@ header img {
   }
   .home .content-destination {
     width: 100%;
+  }
+  .home .content-pick {
+    width: 100%;
+    flex-direction: column;
+  }
+  .home .content-pick .destination {
+    margin: 0 auto 6%;
+    width: 75%;
   }
 }

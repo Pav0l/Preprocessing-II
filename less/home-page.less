@@ -71,7 +71,7 @@ header {
       .btn {
         .btn-border-bg(1px, solid, @button-bg);        
         .btn-text(2rem);
-        width: 85%;
+        width: 100%;
       }
     }
   }
@@ -96,6 +96,13 @@ header {
     .content-destination {
       width: 100%;
     }
-    
+    .content-pick {
+      width: 100%;
+      flex-direction: column;
+      .destination {
+        margin: 0 auto 6%;
+        width: 75%;
+      }
+    }
   }
 }// home
