@@ -154,7 +154,8 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
-p {
+p,
+label {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
@@ -310,6 +311,34 @@ header img {
   to {
     transform: scale3d(1, 1, 1);
   }
+}
+.home .contact-form input[type=text],
+.home .contact-form input[type=email],
+.home .contact-form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5rem 0 1.5rem;
+  resize: vertical;
+}
+.home .contact-form input[type=submit] {
+  background-color: #17A2B8;
+  border: 1px solid #17A2B8;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 3% 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 2% 0;
+  width: 15%;
+  min-width: 70px;
+}
+.home .contact-form .contact-container {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 2rem;
 }
 @media (max-width: 500px) {
   .home {
