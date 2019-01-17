@@ -278,3 +278,27 @@ header img {
   font-size: 2rem;
   width: 85%;
 }
+@media (max-width: 500px) {
+  .home {
+    width: 90%;
+    max-width: 500px;
+  }
+  .home .content-section {
+    flex-direction: column;
+  }
+  .home .content-section div.text-content,
+  .home .content-section div.img-content {
+    width: 100%;
+    padding: 0;
+  }
+  .home .content-section div.text-content img,
+  .home .content-section div.img-content img {
+    width: 100%;
+  }
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
+  .home .content-destination {
+    width: 100%;
+  }
+}
