@@ -194,6 +194,21 @@ img {
   font-size: 1.6rem;
   padding: 2%;
 }
+.navbar-section div nav a:hover {
+  animation-duration: 0.5s;
+  animation-name: pulse;
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
 @media (max-width: 500px) {
   .navbar-section div {
     flex-direction: column;
@@ -277,6 +292,22 @@ header img {
   cursor: pointer;
   font-size: 2rem;
   width: 100%;
+  display: inline-block;
+}
+.home .content-pick .destination .btn:hover {
+  animation-duration: 0.5s;
+  animation-name: pulse;
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
 @media (max-width: 500px) {
   .home {

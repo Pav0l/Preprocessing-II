@@ -12,6 +12,14 @@
     font-size: @size;
 }
 
-
-
-
+.keyframe-animation(@name; @arguments) {
+	@keyframes @name {
+		@arguments();
+	}
+}
+.animation-duration(@time) {
+	animation-duration: @time
+}
+.animation-name(@name) {
+	animation-name: @name;
+}

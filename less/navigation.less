@@ -24,8 +24,26 @@
                 font-family: 'Roboto', sans-serif;
                 font-size: 1.6rem;
                 padding:2%;
+                &:hover {
+                    .keyframe-animation(pulse; {
+                        from {
+                        transform: scale3d(1, 1, 1);
+                        }
+                    
+                        50% {
+                        transform: scale3d(1.2, 1.2, 1.2);
+                        }
+                    
+                        to {
+                        transform: scale3d(1, 1, 1);
+                        }
+                    });
+                    .animation-duration(0.5s);
+                    .animation-name(pulse);
+                }
             }
         }
+
 
         @media @max500 {
             flex-direction: column;
