@@ -1,11 +1,17 @@
 // Mixins in here
-.sign-up-btn(@border-px: 1px; @style; @color) {
+.btn-border-bg(@border-px: 0px; @style; @color) {
     background-color: @color;
     border: @border-px @style @color;
     color: @white;
-    text-align: center;
     border-radius: 10px;
     padding: 3% 0;
-    cursor: pointer;
-    font-size: 2rem;
 }
+.btn-text(@size: 1rem; @align: center; @cursor: pointer) {
+    text-align: @align;
+    cursor: @cursor;
+    font-size: @size;
+}
+
+
+
+
